@@ -2,7 +2,7 @@
 
 # File        : mode-indicator.tmux
 # Description : Tmux plugin to show the current mode in the status line
-# Copyright   : (c) 2020, Munif Tanjim, (c) 2024, Gergely Szabo
+# Copyright   : (c) 2020 Munif Tanjim, (c) 2024 Gergely Szabo
 # License     : MIT
 #
 # This code was forked from https://github.com/MunifTanjim/tmux-mode-indicator
