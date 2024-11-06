@@ -7,6 +7,9 @@
 #
 # This code was forked from https://github.com/MunifTanjim/tmux-mode-indicator
 #
+# Usage:
+#   Add #{tmux_mode_indicator} to your status line in your tmux.conf.
+#
 # Configuration:
 #   You may edit the prompt text and styles using these variables in your tmux.conf:
 #     set -g @mode_indicator_prefix_prompt
@@ -18,8 +21,6 @@
 #     set -g @mode_indicator_sync_mode_style
 #     set -g @mode_indicator_empty_mode_style
 #
-# Usage:
-#   Add #{tmux_mode_indicator} to your status line.
 
 # Exit immediately if a command exits with a non-zero status
 set -e
