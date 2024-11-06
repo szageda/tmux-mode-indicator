@@ -94,6 +94,20 @@ set -g @mode_indicator_sync_mode_style "bg=red,fg=black,bold"
 set -g @mode_indicator_empty_mode_style "bg=blue,fg=white,bold"
 ```
 
+## Troubleshooting
+
+### Error: Returned 126
+
+```
+'.../.tmux/plugins/tmux-mode-indicator/mode-indicator.tmux' returned 126
+```
+
+This error indicates executable permission is not set on `mode-indicator.tmux`. Make the plugin executable by using this command:
+
+```shell
+chmod +x ~/.tmux/plugins/tmux-mode-indicator/mode-indicator.tmux
+```
+
 ## License
 
 Licensed under the MIT License. Check the [LICENSE](./LICENSE) file for details.
