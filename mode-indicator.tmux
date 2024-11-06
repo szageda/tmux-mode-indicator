@@ -20,7 +20,6 @@
 #     set -g @mode_indicator_copy_mode_style
 #     set -g @mode_indicator_sync_mode_style
 #     set -g @mode_indicator_empty_mode_style
-#
 
 # Exit immediately if a command exits with a non-zero status
 set -e
