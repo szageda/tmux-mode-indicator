@@ -46,7 +46,7 @@ tmux_option() {
   local -r fallback="$2"
 
   # Return the fallback value if the option is not set
-  echo "${option:-$fallback}" 
+  echo "${option:-$fallback}"
 }
 
 # Function to format the style for the mode indicator
@@ -62,7 +62,7 @@ indicator_style() {
 init_tmux_mode_indicator() {
   # Retrieve the current mode-keys setting (vi or emacs) from tmux
   local input_mode=$(tmux show-options -gqv mode-keys)
-  
+
   # Check the current mode-keys and format it for display
   if [[ $input_mode == "vi" ]]; then
     input_mode="  VI  "
